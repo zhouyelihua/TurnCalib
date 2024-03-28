@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\chg_doc\201808\code\registration\auto_compute_axis\auoto_compute_axis\source.cpp(86): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\chg_doc\201808\code\registration\auto_compute_axis\auoto_compute_axis\source.cpp(161): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\chg_doc\201808\code\registration\auto_compute_axis\auoto_compute_axis\source.cpp(270): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\chg_doc\201808\code\registration\auto_compute_axis\auoto_compute_axis\source.cpp(350): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\chg_doc\201808\code\registration\auto_compute_axis\auoto_compute_axis\source.cpp(412): warning C4477: “printf”: 格式字符串“%5d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\chg_doc\201808\code\registration\auto_compute_axis\auoto_compute_axis\source.cpp(412): note: 请考虑在格式字符串中使用“%zd”
+  Auoto_compute_axis.vcxproj -> D:\chg_doc\201808\code\Registration\Auto_compute_axis\x64\Debug\Auoto_compute_axis.exe

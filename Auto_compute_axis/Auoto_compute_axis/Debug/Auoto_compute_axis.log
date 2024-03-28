@@ -1,0 +1,10 @@
+﻿  Source.cpp
+d:\chg_doc\201808\code\registration\auoto_compute_axis\auoto_compute_axis\source.cpp(59): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+Source.obj : error LNK2019: 无法解析的外部符号 _cvCreateMat，该符号在函数 _main 中被引用
+Source.obj : error LNK2019: 无法解析的外部符号 _cvGEMM，该符号在函数 _main 中被引用
+Source.obj : error LNK2019: 无法解析的外部符号 _cvInvert，该符号在函数 _main 中被引用
+Source.obj : error LNK2019: 无法解析的外部符号 _cvSolve，该符号在函数 _main 中被引用
+D:\opencv\build\x64\vc15\lib\opencv_world342.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\opencv\build\x64\vc15\lib\opencv_world342d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\chg_doc\201808\code\Registration\Auoto_compute_axis\Debug\Auoto_compute_axis.exe : fatal error LNK1120: 4 个无法解析的外部命令

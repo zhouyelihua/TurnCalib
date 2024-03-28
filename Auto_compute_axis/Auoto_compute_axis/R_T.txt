@@ -1,0 +1,17 @@
+T=[ -4.26833413612	119.890240093	777.529981594]'
+r=[0.000918154320397	0.988320208979	-0.152387729038]
+theta = 0.518673234745
+R =rodrigues(r .* theta)
+
+fid=fopen('XP2_00.asc','w');
+[data_X,data_Y,data_Z,B,G,yyyy,u,v]=textread('XP2_0.asc','%f %f %f %f %f %f %f %f');
+
+sizeX=size(data_X);
+n_points=sizeX(1);
+for i=1:n_points
+   coord=[data_X(i);data_Y(i);data_Z(i)];
+   temp=coord-T;
+   temp=R*temp;
+   temp=temp+T;
+fprintf(fid,'%f\t%f\t%f\t\r\n',temp(1),temp(2),temp(3));
+end
